@@ -1,11 +1,36 @@
-h1 {
+html {
+  height: 100%; }
+
+body {
+  background-image: url("../images/star-trek-background.jpg");
+  background-image: url("../images/background-two.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   position: relative;
-  left: 50%; }
+  height: 400px;
+  width: 400px; }
 
 p {
   position: relative;
-  left: 50%; }
+  width: 1300px;
+  text-align: center;
+  left: 90%;
+  top: 55%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #FF9933; }
 
-button {
+.spock-img {
   position: relative;
-  left: 58%; }
+  display: block;
+  align-content: center;
+  margin-top: 500px;
+  margin-left: 150%;
+  height: 30%;
+  width: 30%; }
+
+#txt {
+  color: #FF9933;
+  width: 100px;
+  margin-left: 57%;
+  font-size: 3vw; }

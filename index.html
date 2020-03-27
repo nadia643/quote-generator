@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
     <script src="quote.js"></script>
     <title>Quote Generator</title>
 </head>
-<body>
-    <h1>Star Trek Quotes</h1>
-    <p id="quote">Quote goes here</p>
-    <button onClick="newQuote()">Next Quote</button>
+<body onload="startTime()">
+<div id="txt"></div>
+    <p id="quote">To boldly go......</p>
+    <img class="spock-img" id="spock-img" src='./images/index.png' alt="spock-button" onClick="newQuote()" /> 
 </body>
 </html>
