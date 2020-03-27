@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/nadia643/quote-generator#readme",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "build": "^0.1.4"
+
   }
 }
