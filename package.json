@@ -21,6 +21,5 @@
   "devDependencies": {
     "node-sass": "^4.13.1",
     "build": "^0.1.4"
-
   }
 }
