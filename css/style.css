@@ -1,5 +1,11 @@
 h1 {
-  padding: 50% 50%; }
+  position: relative;
+  left: 50%; }
+
+p {
+  position: relative;
+  left: 50%; }
 
 button {
-  background-color: green; }
+  position: relative;
+  left: 58%; }
