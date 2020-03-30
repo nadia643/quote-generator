@@ -25,8 +25,6 @@ let quotes = [
     "You know as well as I do that fear exists for one purpose, to be conquered. -- Janeway",
     "You can't just walk away from your responsibilities because you made a mistake. -- Janeway",
     "I dread the day when everyone on this ship agrees with me. -- Janeway"
-
-
 ]
 
 function newQuote() {
@@ -57,3 +55,4 @@ function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;
 }
+

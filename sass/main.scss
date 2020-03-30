@@ -55,16 +55,28 @@ body {
     left: 450px;
 }
 
-li {
-    position: absolute;
-    color: $button-purple;
-    font-size: 2rem;
+ul {
     list-style-type: none;
-    text-decoration: none;
-    left: 15%;
+    margin: 0;
+    padding: 0;
+    margin-left:15%;
 }
 
-a:link a:visited a:active {
+li {
+    float: left;
+
+
+}
+li a {
+  display: block;
+  color: $button-purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:link a:visited a:hover a:active {
     color: $button-purple;
     text-decoration: none;
 }
