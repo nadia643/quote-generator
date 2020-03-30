@@ -55,3 +55,17 @@ li {
 a:link a:visited a:active {
   color: #9999FF;
   text-decoration: none; }
+
+.starship {
+  height: 15%;
+  width: 15%;
+  position: absolute;
+  bottom: 35px;
+  right: 245px;
+  animation: starshipIn 3s ease-out; }
+
+@keyframes starshipIn {
+  0% {
+    transform: translateX(-900%); }
+  100% {
+    transform: translateX(0%); } }
