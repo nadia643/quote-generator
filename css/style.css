@@ -30,3 +30,13 @@ body {
   position: absolute;
   margin-left: 85%;
   font-size: 3vw; }
+
+#hi {
+  color: white; }
+
+#ship-pic {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 300px;
+  left: 450px; }

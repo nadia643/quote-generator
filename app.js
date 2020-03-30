@@ -15,13 +15,21 @@ let quotes = [
     "You can use logic to justify almost anything. That's its power. And its flaw. - Captain Cathryn Janeway",
     "There is a way out of every box, a solution to every puzzle; it's just a matter of finding it. -- Captain Jean-Luc Picard",
     "To boldly go where no man has gone before. -- Captain James T. Kirk"
-
 ]
 
 function newQuote() {
     document.getElementById("quote").innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
 }
 
+
+function newShip() { 
+  //gets a number between 1 and 12 for the ship images
+  let value = Math.floor((Math.random() * 10) + 2);
+  document.getElementById("ship-pic").innerHTML = "<img src='./images/ships/ship-" + value +  ".png'>";
+}
+
+
+// live time function for the top
 function startTime() {
   var today = new Date();
   var h = today.getHours();
