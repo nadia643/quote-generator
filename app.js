@@ -14,7 +14,19 @@ let quotes = [
     "Computers make excellent and efficient servants, but I have no wish to serve under them. -- Spock",
     "You can use logic to justify almost anything. That's its power. And its flaw. - Captain Cathryn Janeway",
     "There is a way out of every box, a solution to every puzzle; it's just a matter of finding it. -- Captain Jean-Luc Picard",
-    "To boldly go where no man has gone before. -- Captain James T. Kirk"
+    "To boldly go where no man has gone before. -- Captain James T. Kirk",
+    "Computers make excellent and efficient servants, but I have no wish to serve under them. -- Spock",
+    "It's not safe out here. It's wondrous, with treasures to satiate desires both subtle and gross; but it's not for the timid. -- Q",
+    "If we're going to be damned, let's be damned for what we really are. -- Jean-Luc Picard",
+    "A library serves no purpose unless someone is using it. -- Mr. Atoz",
+    "Perhaps man wasn't meant for paradise. Maybe he was meant to claw, to scratch all the way. -- James T. Kirk",
+    "Madness has no purpose. Or reason. But it may have a goal. -- Spock", 
+    "Mister Kim, we're Starfleet Officers. Weird is part of the job. -- Janeway",
+    "You know as well as I do that fear exists for one purpose, to be conquered. -- Janeway",
+    "You can't just walk away from your responsibilities because you made a mistake. -- Janeway",
+    "I dread the day when everyone on this ship agrees with me. -- Janeway"
+
+
 ]
 
 function newQuote() {
