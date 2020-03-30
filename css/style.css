@@ -21,7 +21,9 @@ body {
 .lcars {
   position: absolute;
   height: 150px;
-  width: 200px; }
+  width: 200px;
+  bottom: 35px;
+  right: 35px; }
 
 #txt {
   color: #FF9933;
