@@ -1,3 +1,6 @@
+* {
+  cursor: url("http://cur.cursors-4u.net/symbols/sym-7/sym625.cur"), auto !important; }
+
 html {
   height: 100%; }
 
@@ -40,3 +43,15 @@ body {
   width: 400px;
   top: 300px;
   left: 450px; }
+
+li {
+  position: absolute;
+  color: #9999FF;
+  font-size: 2rem;
+  list-style-type: none;
+  text-decoration: none;
+  left: 15%; }
+
+a:link a:visited a:active {
+  color: #9999FF;
+  text-decoration: none; }

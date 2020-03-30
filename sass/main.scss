@@ -1,6 +1,10 @@
 $orange-writing: #FF9933;
 $button-purple: #9999FF;
 
+* {
+    cursor: url("http://cur.cursors-4u.net/symbols/sym-7/sym625.cur"), auto !important;
+ }
+
 html {
     height: 100%;
 }
@@ -52,5 +56,17 @@ body {
 }
 
 li {
-    
+    position: absolute;
+    color: $button-purple;
+    font-size: 2rem;
+    list-style-type: none;
+    text-decoration: none;
+    left: 15%;
 }
+
+a:link a:visited a:active {
+    color: $button-purple;
+    text-decoration: none;
+}
+
+
