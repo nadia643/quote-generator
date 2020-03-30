@@ -6,40 +6,37 @@ html {
 }
 
 body {
+    overflow: hidden;
     background-image: url('../images/star-trek-background.jpg');
     background-image: url('../images/background-two.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    position: relative;
-    height: 400px;
-    width: 400px;
+
 }
 
-p {
-    position: relative;
-    width: 1300px;
-    text-align: center;
-    left: 90%;
-    top: 55%;
+#quote {
+    
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     color:$orange-writing;
+    position: absolute;
+    left:30%;
+    top: 30%;
+    text-align: center;
+    max-width: 900px;
+
 }
 
-.spock-img {
-    position: relative;
-    display: block;
-    align-content: center;
-    margin-top: 500px;
-    margin-left: 150%;
-    height: 30%;
-    width: 30%; 
+.lcars {
+    position: absolute;  
+    height: 150px;
+    width: 200px;
 }
 
 #txt {
     color: $orange-writing;
-    width: 100px;
-    margin-left: 57%;
+    position: absolute;
+    margin-left: 85%;
     font-size: 3vw;;
 }
 
